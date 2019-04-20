@@ -1,5 +1,6 @@
 class Dog
-@@all = []
+  attr_accessor = :name, :breed, :age
+  @@all = []
 
   def initalize(:name, :breed, :age)
     @name = :name
