@@ -1,4 +1,5 @@
 class Dog
+@@all = []
 
   def initalize(:name, :breed, :age)
     @name = :name
